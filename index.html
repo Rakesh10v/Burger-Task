@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="burger.css">
+</head>
+<body>
+    <div id="top">.<img id="logo"
+            src="https://cdn.vectorstock.com/i/1000x1000/48/73/burger-logo-design-restaurant-logo-template-vector-31074873.webp ">
+    </div>
+    <div id="mid">
+        <div id="Pic"><img
+                src="https://thumbs.dreamstime.com/b/white-wooden-spoons-black-background-silhouettes-mixing-spoon-spatula-fork-strainer-cooking-tools-icons-kitchen-utensils-175414011.jpg"
+                height="200px" width="200px"></div>
+        <div>
+            <fieldset id="inc">
+                <h2>Ingredient</h2>
+            </fieldset>
+        </div>
+        <div id="menu">
+            <fieldset>
+                <ul>
+                    <h2>Price</h2>
+                    <li>Whole Wheat Bun</li>
+                    <li>Patty</li>
+                    <li>Onions</li>
+                    <li>Tomatoes</li>
+                    <li>Lettuce</li>
+                    <li>Cheese Slice</li>
+                </ul>
+            </fieldset>
+        </div>
+    </div>
+    <div id="buttom">
+        <h3>Choose What Goes into your burger:</h3>
+        <div id="yo"><button onclick="pat()" id="b1">Patty</button>
+            <button onclick="che()" id="b2">Cheese</button>
+            <button onclick="tom()" id="b3">Tomatoes</button>
+            <button onclick="oni()" id="b4">Onions</button>
+            <button onclick="leu()" id="b5">Lettuse</button>
+        </div>
+        <div id="mon">
+            <fieldset>
+                <p>Current Order Total:</p>
+                <p id="inr">INR:</p>
+                <b>
+                    <p id="value"></p>
+                </b>
+                <p id="tp">To pay</p>
+
+                <button id="pay">Pay n' Receive Order</button>
+            </fieldset>
+        </div>
+
+    </div>
+    <div id="cap">
+        <div id="div4">
+            <div id="burger6" class="child1"></div>
+        </div>
+        <div id="icon"></div>
+        <div id="div2">
+            <div id="burger0" class="child1">
+            </div>
+        </div>
+        <script src="order.js"></script>
+</body>
+
+</html>
